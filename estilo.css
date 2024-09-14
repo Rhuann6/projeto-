@@ -4,3 +4,32 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   
   }
+
+.family{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tamanho{
+  width: 100%;
+}
+table{
+  width: 600pxs;
+}
+table thead{
+  background-color: #ff0;
+}
+
+th,td{
+  padding: 10px;
+  text-align: left;
+}
+tbody tr:hover{
+  background-color: #770;
+}
+tbody td{
+  border-bottom: 1px solid #770;
+}
+tbody tr:nth-child(even){
+  background-color: blue}
+  th{
+    font-weight:normal ;
+  }
