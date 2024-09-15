@@ -1,38 +1,29 @@
-p {
-  font-size: 30px;
-  color: rgb(255, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
-  
-  }
 
-.family{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ #nome{
+ 
+  border: 1px rgb(184, 177, 177);
+  outline: 4px;
+  margin: 4px;
+  height: 100px;
 }
-.tamanho{
-  width: 100%;
+textarea{
+  height: 100px;
+  width: 500px;
+  resize: none;
 }
-table{
-  width: 600pxs;
+.Categoria{
+  height: 50px;
+  width: 200px;
 }
-table thead{
-  background-color: #ff0;
+.nomedolink:hover{
+  text-decoration:underline;
 }
-
-th,td{
+button{
   padding: 10px;
-  text-align: left;
+  font-size:15px;
+  background-color: aquamarine;
+  border: 1px solid #555;
 }
-tbody tr:hover{
-  background-color: #770;
+button:hover{
+  background-color: black;
 }
-tbody td{
-  border-bottom: 1px solid #770;
-}
-tbody tr:nth-child(even){
-  background-color: blue}
-  th{
-    font-weight:normal ;
-  }
-  #opcao{
-    mais vendidos
-  }
