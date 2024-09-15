@@ -33,3 +33,6 @@ tbody tr:nth-child(even){
   th{
     font-weight:normal ;
   }
+  #opcao{
+    mais vendidos
+  }
