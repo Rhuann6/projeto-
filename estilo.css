@@ -6,10 +6,11 @@
   margin: 4px;
   height: 100px;
 }
-textarea{
+#texterea{
   height: 100px;
   width: 500px;
   resize: none;
+  
 }
 .Categoria{
   height: 50px;
