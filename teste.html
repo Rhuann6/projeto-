@@ -4,38 +4,44 @@
     <link rel="stylesheet" href="estilo.css">
   </head>
   
-  <body>
-    <h1 class="family">Página de Teste</h1>
-    <h1>Área de Login</h1>
-  
-    <form action="projeto-/index.html" method="get">
-      <!-- Campo Nome -->
-      <label for="nome">Nome</label><br>
-      <input type="text" name="nome" id="nome"><br><br>
-  
-      <!-- Campo Descrição -->
-      <label for="descricao">Descrição:</label><br>
-      <textarea name="descricao" id="descricao"></textarea><br><br>
-  
-      <!-- Campo Categoria -->
-      <label for="categoria">Categoria:</label><br>
-      <select name="categoria" id="categoria" class="categoria">
-        <option value="1">Categoria 1</option>
-        <option value="2">Categoria 2</option>
-        <option value="3">Categoria 3</option>
-        <option value="4">Categoria 4</option>
-        <option value="5">Categoria 5</option>
-      </select><br><br>
-  
-      <!-- Termos de Uso -->
-      <label for="termos">
-        Eu li os <a href="paginaas/termos" target="_blank" class="nomedolink">termos</a> de uso
-        <input type="checkbox" id="termos">
-      </label><br><br>
-  
-      <!-- Botão de Cadastro -->
-      <button type="submit">Fazer Cadastro</button>
-    </form>
+  <body> 
+      <form method="post"></form>
+      <fieldset>
+
+        <legend>Dados Pessoais</legend>
+            <label><br>
+                 Primeiro nome <br>
+                <input type="text" name="name">
+            </label>
+           <label><br>
+               Sobrenome <br>
+             <input type="text" name="lastname">
+           </label>
+
+    </fieldset>
+
+        <fieldset>  
+        <legend>dados profissionais</legend>
+            <label><br>
+               Nome da empresa <br>
+               <input type="text" name="conpanyname">
+            </label>
+               <label><br>
+                   Sobrenome <br>
+                  <input type="text" name="conpanyjobtitle">
+               </label>
+             <input type="submit" value="cadastrar">
+
+        </fieldset>
+      
+
+       
+
+
+
+
+
+
   </body>
   
 
